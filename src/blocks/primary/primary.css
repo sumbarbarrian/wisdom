@@ -4,9 +4,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: url('../../images/2.jpg') center center no-repeat;
-    background-size: cover;
-    width: 700px;
+    background: url('../../assets/images/background.svg') center center no-repeat;
+    background-size: contain;
+    width: auto;
     height: 400px;
     position: relative;
 
@@ -30,27 +30,44 @@
     margin: 0 0 0 64px;
     padding: 0;
     text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
 }
 
 .primary__button {
     position: absolute;
-    width: 100px;
-    height: 70px;
-    background: url('../../images/1.jpg')  no-repeat;
     z-index: 3;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary__button:hover {
+    transform: scale(110%);
+    transition: transform 0.5s;
 }
 
 .primary__yes {
-    margin: 50px 0 50px 150px;
+    background: url('../../assets/images/upperbutton.svg')  no-repeat;
+    width: 153px;
+    height: 149px;
     top: 0;
+    left: 100px;
 }
 
 .primary__quote {
-    margin: 50px 0 150px;
+    background: url('../../assets/images/rightbutton.svg')  no-repeat;
+    width: 191px;
+    height: 159px;
+    top: 240px;
     right: 0;
 }
 
 .primary__three {
-    margin: 50px 0 -50px;
+    background: url('../../assets/images/leftbutton.svg')  no-repeat;
+    width: 228px;
+    height: 188px;
+    left: 100px;
+    top: 300px;
 }
