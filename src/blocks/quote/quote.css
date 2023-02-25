@@ -4,16 +4,44 @@
     padding-top: 40px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     background-size: contain;
     width: auto;
     height: 400px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote__rectangle {
-    background: url('../../assets/images/rectangle.png') center center no-repeat;
+    min-height: 150px;
+    max-width: 50%;
     z-index: 2;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.quote__appendix {
+    border: 1px solid white;
+    padding: 10px;
+    background: white;
+    position: absolute;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+
+    transform: rotate(45deg) skewX(60deg);
+    clip-path: polygon(0 100%, 100% 100%,100% 0);
+}
+
+.quote__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .quote__text {
