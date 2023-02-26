@@ -48,39 +48,45 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'HelveticaMedium';
 }
 
 .primary__button:hover {
-    transform: scale(110%);
+    transform: scale(115%);
     transition: transform 0.5s;
+    cursor: pointer;
 }
 
 .primary__yes {
-    background: url('../../assets/images/upperbutton.svg')  no-repeat;
+    background: url('../../assets/images/upperbutton.svg') no-repeat;
     width: 153px;
     height: 149px;
     top: 0;
     left: 100px;
     color: #5a4d4c;
     text-shadow: 2px 2px 3px white;
+
 }
 
 .primary__quote {
-    background: url('../../assets/images/rightbutton.svg')  no-repeat;
+    background: url('../../assets/images/rightbutton.svg') no-repeat;
     width: 191px;
     height: 159px;
     top: 240px;
     right: 0;
     color: #fff;
     text-shadow: 2px 2px 3px black;
+
 }
 
 .primary__three {
-    background: url('../../assets/images/leftbutton.svg')  no-repeat;
+    background: url('../../assets/images/leftbutton.svg') no-repeat;
     width: 228px;
     height: 188px;
     left: 100px;
     top: 300px;
     color: #5a4d4c;
     text-shadow: 2px 2px 3px white;
+
 }
+

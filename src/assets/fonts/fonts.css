@@ -25,3 +25,40 @@
   src: url("Inter Web/Inter-Black.woff2") format("woff2"),
   url("Inter Web/Inter-Black.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'HelveticaRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("HelveticaRegular/HelveticaRegular.woff") format("woff"),
+  url("HelveticaRegular/HelveticaRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'HelveticaMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("HelveticaMedium/HelveticaMedium.woff") format("woff"),
+  url("HelveticaMedium/HelveticaMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'HelveticaBoldItalic';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("HelveticaBoldItalic/HelveticaBoldItalic.woff") format("woff"),
+  url("HelveticaBoldItalic/HelveticaBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'HelveticaBold';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("HelveticaBold/HelveticaBold.woff") format("woff"),
+  url("HelveticaBold/HelveticaBold.woff") format("woff");
+}
+
