@@ -6,9 +6,8 @@
     flex-direction: row;
     background-size: contain;
     width: auto;
-    height: 400px;
+    height: calc(100vh - 120px);
     position: relative;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -31,7 +30,6 @@
     bottom: 50px;
     width: 100px;
     height: 100px;
-
     transform: rotate(45deg) skewX(60deg);
     clip-path: polygon(0 100%, 100% 100%,100% 0);
 }
@@ -44,6 +42,43 @@
     padding: 20px;
 }
 
-.quote__text {
+#id_quote_text {
+    display: block;
+    font-family: 'HelveticaBoldItalic';
+    text-shadow: 4px 4px 5px darkgrey;
+    line-height: 1.4;
+    margin-top: 20px;
+    animation: text__slidein 2s;
+
+}
+
+#id_quote_author {
     z-index: 3;
+    font-family: 'HelveticaRegular';
+    margin-top: 20px;
+    animation: author__slidein 2s
+}
+
+
+@keyframes author__slidein {
+
+    100% {
+        opacity: 1;
+    }
+
+    0% {
+        opacity: 0;
+    }
+}
+
+@keyframes text__slidein {
+
+    100% {
+        opacity: 1;
+    }
+
+    0% {
+        opacity: 0;
+    }
+
 }
