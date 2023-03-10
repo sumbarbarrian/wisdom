@@ -1,0 +1,43 @@
+.header {
+    max-width: 100vw;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header__icon {
+    display: flex;
+    position: relative;
+    width: 40px;
+    font-size: 17px;
+    text-align: center;
+    text-transform: lowercase;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.header__icon_link {
+    display: flex;
+}
+
+.header__icon_text {
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 86px;
+    margin: -30px -10px 0;
+    padding: 23px 0 30px;
+    -webkit-transition: 0.4s cubic-bezier(0.8,0,0.4,1);
+    transition: 0.4s cubic-bezier(0.8,0,0.4,1);
+}
+
+.header__icon_round {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #450920;
+    margin-top: 20px;
+}
