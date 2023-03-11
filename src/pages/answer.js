@@ -42,7 +42,7 @@ function debounce(func, ms) {
     };
 }
 
-const answer = ['Да!', 'Нет', 'Несомненно','Маловероятно' ,'Невозможно' ,'Да!' ,'Конечно!' ,'Нет', 'Безусловно!'];
+const answer = ['Да!', 'Нет', 'Несомненно','Маловероятно' ,'Невозможно' ,'Конечно!' , 'Безусловно!'];
 const answerText = document.getElementById("id_answer_text");
 const answerButton = document.getElementById("id_answer_button");
 const image = document.getElementById('id_answer__face_block')
