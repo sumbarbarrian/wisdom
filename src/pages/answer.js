@@ -40,17 +40,17 @@ function debounce(func, ms) {
             callAllowed = true;
         }, ms);
     };
-};
+}
 
 const answer = ['Да!', 'Нет', 'Несомненно','Маловероятно' ,'Невозможно' ,'Да!' ,'Конечно!' ,'Нет', 'Безусловно!'];
 const answerText = document.getElementById("id_answer_text");
 const answerButton = document.getElementById("id_answer_button");
-const image = document.querySelector('.answer__face_block')
+const image = document.getElementById('id_answer__face_block')
 const choiceAnswer = (arr) => {
     return arr[Math.floor(Math.random()*arr.length)]
 }
 answerButton.addEventListener('click', () => {
     const result = choiceAnswer(answer)
-        answerText.innerText = result
+    answerText.innerText = result
     image.style.display = 'none'
 })
