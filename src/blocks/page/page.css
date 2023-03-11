@@ -1,5 +1,7 @@
 .page {
   margin: 0 auto;
+  padding-bottom: 90px;
+
 }
 
 @media screen and (min-width: 321px) {

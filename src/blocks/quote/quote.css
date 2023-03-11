@@ -14,7 +14,8 @@
 
 .quote__rectangle {
     min-height: 150px;
-    max-width: 50%;
+    max-width: 70%;
+    min-width: 50%;
     z-index: 2;
     border: 1px solid white;
     border-radius: 10px;
@@ -49,6 +50,7 @@
     line-height: 1.4;
     margin-top: 20px;
     animation: text__slidein 2s;
+    font-size: 17px;
 
 }
 
